@@ -1,7 +1,7 @@
 server:
   applicationConnectors:
     - type: http
-      port: 8080
+      port: 9015
       bindHost: localhost
 
 seatHoldExpirationTimeInMilliSeconds: 120000
