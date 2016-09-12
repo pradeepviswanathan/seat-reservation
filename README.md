@@ -1,6 +1,11 @@
 # Seat reservation service
 This is a restful service which provides endpoints to list/hold/reserve seats for the show. If there is only one instance of this service running, concurrent requests would not double book the same seat for multiple reservation. I have added a seat locking mechanism in memory which would facilitate this functionality. All the seat holds / reservations are also stored in memory. 
 
+# Installation
+get the latest from master branch  
+cd seat-reservation  
+mvn clean install  
+java -jar target/seat-reservation-1.0-SNAPSHOT.jar server configs/seatreservation.yml  
 # Assumptions
   - The actual problem was about booking seats in the venue. I have slightly modified this requirement to support booking seats for various shows in the venue.
 # Installation
