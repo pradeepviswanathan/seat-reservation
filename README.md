@@ -9,8 +9,6 @@ java -jar target/seat-reservation-1.0-SNAPSHOT.jar server configs/seatreservatio
 # Assumptions
   - The actual problem was about booking seats in the venue. I have slightly modified this requirement to support booking seats for various shows in the venue.
   - There are total of 720 seats in the venue. 80 seats in 9 rows (rows range : 'a' through 'i')
-# Installation
-    Add mvn commands
 
 ## List Seats
 This is the endpoint to list the seats based on the requested status  
